@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:id="@+id/posting_progress" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" style="?android:attr/progressBarStyleLarge"/>
+    <EditText android:gravity="top" android:id="@+id/messageText" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Enter message" android:ems="10" android:layout_weight="1" android:inputType="none|text|textCapSentences|textMultiLine"/>
+    <EditText android:id="@+id/linkText" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Additional link" android:ems="10" android:layout_weight="0" android:inputType="textWebEmailAddress"/>
+    <CheckBox android:id="@+id/privateCheckbox" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Private posting"/>
+    <Button android:id="@+id/postButton" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Post message"/>
+</LinearLayout>

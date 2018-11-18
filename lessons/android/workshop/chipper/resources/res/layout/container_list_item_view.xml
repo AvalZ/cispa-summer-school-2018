@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_vertical" android:orientation="vertical" android:padding="2dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textAppearance="@style/TextAppearance.Material.Medium" android:id="@+id/list_item_message" android:padding="4dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    <TextView android:textStyle="italic" android:id="@+id/list_item_username" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    <TextView android:id="@+id/list_item_time" android:padding="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/activity_plugin" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="@dimen/activity_vertical_margin" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="@dimen/activity_vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textAppearance="@style/TextAppearance.Material.Large" android:id="@+id/plugin_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TextView" android:textAlignment="center"/>
+    <TextView android:textAppearance="@style/TextAppearance.Material.Large" android:id="@+id/plugin_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="TextView" android:textAlignment="center"/>
+    <ImageView android:layout_gravity="center" android:id="@+id/imageView" android:layout_width="match_parent" android:layout_height="wrap_content" app:srcCompat="@android:drawable/presence_offline"/>
+    <Button android:id="@+id/plugin_ok_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Grant access"/>
+    <Button android:id="@+id/plugin_cancel_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Deny access"/>
+</LinearLayout>

